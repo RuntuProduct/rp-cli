@@ -1,4 +1,5 @@
 import chalk from 'chalk'
+import leftPad from 'left-pad'
 
 const info = (type, message) => {
   console.log(`${chalk.green.bold(leftPad(type, 12))}  ${message}`)
